@@ -110,23 +110,27 @@ open_to_opportunities
 
 </div>
 
+
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,mysql,git,github,maven,linux,docker,jenkins,kubernetes,aws&theme=dark&perline=7" alt="Technology skills"/>
+<img src="https://skillicons.dev/icons?i=java,mysql,git,github,vscode,eclipse,linux,maven,jenkins,sonarqube&theme=dark&perline=7" alt="Technology skills"/>
 
 <br/><br/>
 
 | | Domain | Tools & Technologies |
 |:---:|:---|:---|
-| 💻 | **Programming** | Core Java |
-| 🗄️ | **Database** | SQL, MySQL, Oracle SQL |
+| 💻 | **Programming Language** | Core Java |
+| ⚙️ | **Core Java Concepts** | Variables, Data Types, Operators, Decision-Making, Loops, Jump Statements, Methods, Recursion, OOP, Constructors, Arrays, Strings, Exception Handling |
+| 🗄️ | **Database** | SQL (Operators, Joins, Subqueries, Aggregate Functions, GROUP BY, HAVING, ORDER BY) |
 | 🔧 | **Version Control** | Git, GitHub |
-| 📦 | **Build Tool** | Maven |
-| 🐧 | **Operating System** | Windows, Linux (Learning) |
-| 🚀 | **DevOps & CI/CD** | Jenkins, Docker (Learning) |
-| ☁️ | **Cloud & Orchestration** | AWS, Kubernetes (Learning) |
+| 🖥️ | **Operating Systems** | Ubuntu/Linux, Windows |
+| 🛠️ | **Development Tools** | VS Code, Eclipse |
+| 🚀 | **DevOps Tools** | Maven, Jenkins, SonarQube, Nexus Repository, Apache Tomcat |
+| 🧪 | **Manual Testing** | Software Testing, Defect Life Cycle |
+| 🤝 | **Soft Skills** | Problem-Solving, Teamwork, Communication, Time Management |
 
 </div>
+
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:020617,50:00C6FF,100:020617" width="100%" alt=""/>
 
@@ -160,6 +164,41 @@ A project focused on managing student information and academic records.
 </td>
 
 <td width="50%" valign="top">
+
+
+
+
+### 🚀 Jenkins CI/CD Pipeline Automation
+
+End-to-end CI/CD pipeline to automate application building, code quality analysis, artifact management, and deployment.
+
+**Technologies Used:**
+
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nexus-1B1C30?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groovy-4298B8?style=for-the-badge&logo=apachegroovy&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+
+**Key Responsibilities:**
+
+- Designed and implemented an end-to-end CI/CD pipeline using Jenkins.
+- Automated application builds, testing, artifact management, and deployment using a Scripted Jenkinsfile written in Groovy.
+- Integrated Maven for build automation and SonarQube for code quality analysis.
+- Integrated Nexus Repository for artifact storage and management.
+- Automated deployment of versioned artifacts to Apache Tomcat hosted on AWS EC2.
+- Configured Git webhooks to trigger automatic builds on every code commit.
+- Monitored pipeline execution, troubleshot build failures, and improved deployment reliability through automation.
+
+**CI/CD Workflow:**
+
+`GitHub → Jenkins → Maven → SonarQube → Nexus → Tomcat (AWS EC2)`
+
+
+
 
 ### 📝 Online Quiz Application
 
