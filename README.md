@@ -140,16 +140,17 @@ open_to_opportunities
 
 </div>
 
+
+```html
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🎓 Student Management System
 
 A project focused on managing student information and academic records.
 
 **Highlights**
-
 - Student information management
 - User-friendly frontend interface
 - Organized student records
@@ -163,10 +164,7 @@ A project focused on managing student information and academic records.
 
 </td>
 
-<td width="50%" valign="top">
-
-
-
+<td width="34%" valign="top">
 
 ### 🚀 Jenkins CI/CD Pipeline Automation
 
@@ -184,7 +182,6 @@ End-to-end CI/CD pipeline to automate application building, code quality analysi
 <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 
 **Key Responsibilities:**
-
 - Designed and implemented an end-to-end CI/CD pipeline using Jenkins.
 - Automated application builds, testing, artifact management, and deployment using a Scripted Jenkinsfile written in Groovy.
 - Integrated Maven for build automation and SonarQube for code quality analysis.
@@ -197,15 +194,15 @@ End-to-end CI/CD pipeline to automate application building, code quality analysi
 
 `GitHub → Jenkins → Maven → SonarQube → Nexus → Tomcat (AWS EC2)`
 
+</td>
 
-
+<td width="33%" valign="top">
 
 ### 📝 Online Quiz Application
 
 An application designed to conduct online quizzes and calculate scores.
 
 **Highlights**
-
 - Multiple-choice questions
 - Quiz navigation
 - Automatic score calculation
@@ -220,6 +217,17 @@ An application designed to conduct online quizzes and calculate scores.
 </td>
 </tr>
 </table>
+```
+
+
+
+
+
+
+
+
+
+
 
 <div align="center">
 
